@@ -27,3 +27,67 @@ html, body {
     background-color: #fafafa;
     color: black;
   }
+
+/* MENU CODE */
+#mymenu {
+    width: 0;
+  }
+  
+  .menubar {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #5d5d5d;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  #mymenu img {
+    width: 55px;
+    height: 55px;
+    margin-top: 30px;
+  }
+  
+  .menubar a {
+    padding: 8px 8px 8px 32px;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #2a623d;
+    font-size: 30px;
+  }
+  
+  .menubar h1 {
+    margin: 50px 0px 30px 20px;
+    color: #ffffff;
+  }
+  
+  .menubar {
+    line-height: 22px;
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* END MENU CODE */
+
+  .header-page-name-left a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+  }
+
+  .header-page-name-left {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
